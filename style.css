@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(https://source.unsplash.com/1600x900/?landscape);
+    background-size: cover;
+}
+
+.box-maior{
+    background-color: skyblue;
+    opacity: 0.8;
+    color: aliceblue;
+    padding: 30px;
+    border-radius: 15px;
+
+
+}
+
+.box-menor{
+    display: flex;
+    align-items: center;
+
+}
+
+.btn{
+    background-color: black;
+    color: aliceblue;
+
+}
+
+h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.titulo-previsao{
+    text-transform: capitalize;
+
+}
+
+.p{
+    margin: 0%;
+}
+
+input{
+    outline: none;
+
+}
